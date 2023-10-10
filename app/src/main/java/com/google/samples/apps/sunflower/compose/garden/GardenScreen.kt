@@ -97,7 +97,7 @@ private fun GardenList(
     val gridState = rememberLazyGridState()
     ReportDrawnWhen { gridState.layoutInfo.totalItemsCount > 0 }
     LazyVerticalGrid(
-        columns = GridCells.Fixed(2), // Ubah ini
+        columns = GridCells.Fixed(3), // Perubahan untuk nomor 2
         modifier,
         state = gridState,
         contentPadding = PaddingValues(
